@@ -1,0 +1,46 @@
+/*First CSS file*/
+/*https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics*/
+p {
+  color: green;
+  width: 800px;
+  border: 1px solid black;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+uol, ol {
+  color: blue;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  padding: 10px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 8px purple;
+  font-size: 40px;
+  line-height: 1;
+}
+h3 {
+  line-height: 1;
+}
+.croPic { /*using .croPic from class defined in html to save typing and to center image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* or replace these 2 lines with just margin: 0 auto; */
+  width: 40%;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+a:hover {
+  color: blue;
+}
+html {
+  font-size: 15px;
+  font-family: 'IBM Plex Serif', serif;
+  background-color: white; /*not really changing anything, just wanted to try it*/
+}

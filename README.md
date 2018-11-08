@@ -4,4 +4,6 @@
 #REHAUL INCOMING
 
 wireframe guide I made to begin formulating ideas for resume website design
-https://wireframe.cc/eg6qaN
+
+WEBSITE VIEW: https://wireframe.cc/eg6qaN
+MOBILE MENU CLOSED VIEW: https://wireframe.cc/eg6qaN

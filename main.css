@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    grid-template-rows: 50px 75px 100px 100px 100px 100px 50px;
+    grid-template-columns: repeat(10, 1fr);
+    margin: 15px;
+    background-image: url('blurred.jpg');
+}
+
+.header {
+    grid-column: span 10;
+    grid-row: 1;
+    background-color: black;
+}
+
+.rest {
+    grid-column: span 10;
+    grid-row: 2; 
+    border-color: aqua;
+}
+
+.picture {
+    grid-row: 3 / 6;
+    grid-column: span 4;
+    border-color: aqua;
+}
+
+.aboutme {
+    grid-row: 3 / 6;
+    grid-column: span 6;
+    border-color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 250px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    box-shadow: 1000px 1000px 12000px 12000px white inset;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+}

@@ -23,7 +23,11 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-    
+ 
+@media screen and (max-width: 645px) {
+  .topnav span:not(:first-child) {display: none;}
+}   
+
 .topnav span {
     float: left;
     display: block;
@@ -42,7 +46,7 @@ body {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #9B6163;
     color: white;
 }
 
@@ -53,7 +57,7 @@ body {
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) {
   .topnav span:not(:first-child) {display: none;}
   .topnav a.icon {
     float: left;
@@ -62,7 +66,7 @@ body {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;

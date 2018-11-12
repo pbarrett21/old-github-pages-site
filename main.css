@@ -24,6 +24,7 @@ body {
     font-size: 17px;
 }
  
+/* Remove my name from menu when screen gets small*/
 @media screen and (max-width: 645px) {
   .topnav span:not(:first-child) {display: none;}
 }   
@@ -63,6 +64,11 @@ body {
     float: left;
     display: block;
   }
+   .topnav {
+    grid-column: span 10;
+    background-color: #333;
+    overflow: hidden;
+} 
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */

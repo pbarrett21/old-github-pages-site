@@ -63,6 +63,28 @@ body {
     grid-column: span 5;
 }
 
+.aboutmeresume {
+    grid-row: 2/7;
+    grid-column: 2/6;
+}
+
+.aboutmesubpages {
+    grid-row: 2/7;
+    grid-column: 2/10;
+}
+
+.resumeside {
+    grid-row: 2/7;
+    grid-column: 7/10;
+}
+
+.resumeimg {
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* make my picture "sticky" */
 .sticky {
     border-radius: 50%;
@@ -86,7 +108,7 @@ body {
 }
 
 /* style media links in a list */
-ul {
+.medialist {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -94,18 +116,18 @@ ul {
 }
 
 /* make media links appear on left side */
-li {
+.medialistitems {
     float: left;
 }
 
-/* style media links */
+/* style media links
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-}
+}*/
 
 /* media links icons */
 .fa {
@@ -120,6 +142,11 @@ li a {
     background: #007bb5;
     color: white;
     border-radius: 50%;
+    
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
 
 /* media links icons */
@@ -127,6 +154,11 @@ li a {
     background: gray;
     color: white;
     border-radius: 50%;
+    
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
 
 /* position media links to bottom */

@@ -64,7 +64,7 @@ body {
 }
 
 .aboutmeresume {
-    grid-row: 2/7;
+    grid-row: 2/4;
     grid-column: 2/6;
 }
 
@@ -163,7 +163,7 @@ li a {
 
 /* position media links to bottom */
 .medialinks {
-    grid-row-start: 7;
+    grid-row-start: 5;
     grid-column: 2 / 10;
 }
 

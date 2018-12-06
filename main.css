@@ -163,7 +163,7 @@ li a {
 
 /* position media links to bottom */
 .medialinks {
-    grid-row-start: 5;
+    grid-row-start: 7;
     grid-column: 2 / 10;
 }
 

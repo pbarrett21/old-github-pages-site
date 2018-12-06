@@ -87,7 +87,7 @@ body {
 
 /* make my picture "sticky" */
 .sticky {
-    border-radius: 50%;
+    border-radius: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto;

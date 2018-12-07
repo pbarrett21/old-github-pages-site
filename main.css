@@ -63,6 +63,11 @@ body {
     grid-column: span 5;
 }
 
+.listhead {
+    list-style-type: square;
+    font-size: 20px;
+}
+
 .aboutmeresume {
     grid-row: 2/4;
     grid-column: 2/6;

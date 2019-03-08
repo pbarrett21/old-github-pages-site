@@ -90,6 +90,10 @@ body {
     margin-right: auto;
 }
 
+.projectslist {
+    font-size: 14pt;
+}
+
 /* make my picture "sticky" */
 .sticky {
     border-radius: 15%;

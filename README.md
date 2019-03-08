@@ -1,7 +1,7 @@
 # pbarrett21.github.io
 
 
-#REHAUL INCOMING
+# REHAUL INCOMING
 
 wireframe guide I made to begin formulating ideas for resume website design (using wireframe.cc)
 
@@ -14,5 +14,10 @@ MOBILE MENU OPEN VIEW: https://gyazo.com/e8561515d262c62948ef76820eeafbaa
 
 The purpose of this is not only to create a "Resume site" but also to explore and learn some old-fashioned web development along the way using just HTML, CSS, and Javascript. Eventually, once I have considered this website to be finished, I plan to work on a more modern approach for a second version. I am still debating what I would like to use, but I am currently considering React.
 
-#Goals of this Project
-*
+# Goals of this Project
+
+* Gain greater understanding of HTML, CSS, and Javascript
+* Learn CSS Grid
+* Learn how to make a website responsive
+* Learn how to use a wireframe
+* Build a strong foundation in order to learn React

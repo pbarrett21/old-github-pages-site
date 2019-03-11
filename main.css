@@ -94,6 +94,12 @@ body {
     font-size: 14pt;
 }
 
+.wireframeimg {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
 /* make my picture "sticky" */
 .sticky {
     border-radius: 15%;
